@@ -4,32 +4,39 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1">
         <title>MinuteNote</title>
-        <meta name="description" content="Site intended to help you write things down!">
+        <meta name="description" content="Site intended to help you write things down! ">
         <meta name="author" content="Zennard">
 
-      <!--add css-->
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 
     </head>
     <body>
-      <h1>Welcome!</h1>
       
-      <hr style = "color:chartreuse">
-      <img src = "images/note.jpeg" alt = "image of a note" align = "right" align = "top" height = "43"> 
-      <table border = "1" style = "background-color:dimgray" cellspacing = "5">
-        <tr>
-          <td><a href = "index.html" style = "color:chartreuse">Home</a></td>
-          <td><a href = "users.html" style = "color:chartreuse">Users</a></td>
-          <td><a href = "boards.html" style = "color:chartreuse">Your boards</a></td>
-          <td><a href = "about.html" style = "color:chartreuse">About</a></td>
-        </tr>
-      </table>
-      <hr style = "color:chartreuse">
-
-      <p style = "text-align: center"><strong>MinuteNote </strong> is a site<br>
-      intended to help you in simple and quick<br> 
-      creation of interactive notes.<br> You can 
-      give access to your boards with notes<br> to 
-      other people.</p>
+      <div class = "main_block">
+          <div id = "logo"><img src = "images/logo.jpg" alt = "logo"></div>
+          <hr class = "menu_page">
+          <table class = "menu_border">
+            <tr>
+                <td class = "menu_data"><a href = "index.html" class = "menu_cur_page">Home</a></td>
+                <td class = "menu_ver_line">|</td>
+                <td class = "menu_data"><a href = "users.html" class = "menu_page">Users</a></td>
+                <td class = "menu_ver_line">|</td>
+                <td class = "menu_data"><a href = "boards.html" class = "menu_page">Your boards</a></td>
+                <td class = "menu_ver_line">|</td>
+                <td class = "menu_data"><a href = "about.html" class = "menu_page">About</a></td>
+            </tr>
+          </table>
+          <hr class = "menu_page">
+    
+          <div class = "main_text">
+            <p><strong>MinuteNote</strong> is a site
+    intended to help you in simple and quick
+    creation of interactive notes. You can 
+    give access to your boards with notes to 
+    other people.
+            </p>
+          </div>
+      </div>
 
     </body>
 </html>

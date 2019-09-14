@@ -1,0 +1,97 @@
+.menu_page {
+    color: chartreuse;
+}
+
+.menu_cur_page {
+    color: lightgray;
+}
+
+.menu_border {
+    border: 6px;
+    background-color: dimgray;
+    border-style: groove;
+    border-spacing: 5;
+    width: 600px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+#logo {
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+}
+
+.menu_data {
+    text-align: center;
+}
+
+.menu_ver_line {
+    color:lightslategrey;
+}
+
+.main_text > p{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    white-space: pre;
+}
+
+.main_block {
+    width: 960px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.main_table table, .main_table tr, .main_table th, .main_table td, .main_table caption, .main_table{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+    border: 3px;
+    background-color: dimgray;
+    border-style: double;
+    border-spacing: 5;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: gold; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.center_list {
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.center_text {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rounded_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.biography_text {
+    background-color: palegreen;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 50%;
+    height:50%;
+    margin: 0 auto;
+}

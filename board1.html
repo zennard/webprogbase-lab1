@@ -7,40 +7,35 @@
         <meta name="description" content="Site intended to help you write things down!">
         <meta name="author" content="Zennard">
 
-        <style>
-            ul {
-                list-style: none; /* Remove default bullets */
-            }
-          
-            ul li::before {
-                content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-                color: gold; /* Change the color */
-                font-weight: bold; /* If you want it to be bold */
-                display: inline-block; /* Needed to add space between the bullet and the text */
-                width: 1em; /* Also needed for space (tweak if needed) */
-                margin-left: -1em; /* Also needed for space (tweak if needed) */
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        
     </head>
     <body>
-        <h1>Welcome!</h1>
+        <div class = "main_block">
+            <div id = "logo"><img src = "images/logo.jpg" alt = "logo"></div>
+            <hr class = "menu_page">
+            <table class = "menu_border">
+                <tr>
+                    <td class = "menu_data"><a href = "index.html" class = "menu_page">Home</a></td>
+                    <td class = "menu_ver_line">|</td>
+                    <td class = "menu_data"><a href = "users.html" class = "menu_page">Users</a></td>
+                    <td class = "menu_ver_line">|</td>
+                    <td class = "menu_data"><a href = "boards.html" class = "menu_cur_page">Your boards</a></td>
+                    <td class = "menu_ver_line">|</td>
+                    <td class = "menu_data"><a href = "about.html" class = "menu_page">About</a></td>
+                </tr>
+            </table>
+            <hr class = "menu_page">
+        
+            <div class = "center_list">
+                <ul>
+                    <li>create users page</li>
+                    <li>create boards page</li>
+                    <li>create about page</li>
+                </ul>
+            </div>
 
-        <hr style = "color:chartreuse">
-        <img src = "images/note.jpeg" alt = "image of a note" align = "right" align = "top" height = "43"> 
-        <table border = "1" style = "background-color:dimgray" cellspacing = "5">
-          <tr>
-            <td><a href = "index.html" style = "color:chartreuse">Home</a></td>
-            <td><a href = "users.html" style = "color:chartreuse">Users</a></td>
-            <td><a href = "boards.html" style = "color:chartreuse">Your boards</a></td>
-            <td><a href = "about.html" style = "color:chartreuse">About</a></td>
-          </tr>
-        </table>
-        <hr style = "color:chartreuse">
+        </div>
 
-        <ul contenteditable="true">
-            <li>create users page</li>
-            <li>create boards page</li>
-            <li>create about page</li>
-        </ul>
     </body>
 </html>

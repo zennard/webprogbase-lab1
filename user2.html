@@ -6,44 +6,39 @@
         <title>MinuteNote</title>
         <meta name="description" content="Site intended to help you write things down!">
         <meta name="author" content="Zennard">
+
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
     </head>
     <body>
-        <h1>Welcome!</h1>
-
-        <hr style = "color:chartreuse">
-        <img src = "images/note.jpeg" alt = "image of a note" align = "right" align = "top" height = "43"> 
-        <table border = "1" style = "background-color:dimgray" cellspacing = "5">
-          <tr>
-            <td><a href = "index.html" style = "color:chartreuse">Home</a></td>
-            <td><a href = "users.html" style = "color:chartreuse">Users</a></td>
-            <td><a href = "boards.html" style = "color:chartreuse">Your boards</a></td>
-            <td><a href = "about.html" style = "color:chartreuse">About</a></td>
-          </tr>
-        </table>
-        <hr style = "color:chartreuse">
-
-        <div style = "padding:0 50%">
-            <table border = "1" style = "background-color:dimgray">
-                    <tr>
-                        <td colspan = "2" align = "center"><img src = "images/planktosha.jpeg" alt = "Plankton J" width = "80" height = "80"></td>
-                    </tr>
-                    <tr>
-                        <td>Login:</td>
-                        <td>user2</td>
-                    </tr>
-                    <tr>
-                        <td>Fullname:</td>
-                        <td>Sheldon J.Plankton</td>
-                    </tr>
-                    <tr>
-                        <td>Registration date:</td>
-                        <td>30.1.2019</td>
-                    </tr>
-                    <tr>
-                        <td>Biography:</td>
-                        <td>Main goal in life is to steal the Krabby Patty formula from Mr. Krabs</td>
-                    </tr>
+        <div class = "main_block">
+            <div id = "logo"><img src = "images/logo.jpg" alt = "logo"></div>
+            <hr class = "menu_page">
+            <table class = "menu_border">
+                <tr>
+                    <td class = "menu_data"><a href = "index.html" class = "menu_page">Home</a></td>
+                    <td class = "menu_ver_line">|</td>
+                    <td class = "menu_data"><a href = "users.html" class = "menu_cur_page">Users</a></td>
+                    <td class = "menu_ver_line">|</td>
+                    <td class = "menu_data"><a href = "boards.html" class = "menu_page">Your boards</a></td>
+                    <td class = "menu_ver_line">|</td>
+                    <td class = "menu_data"><a href = "about.html" class = "menu_page">About</a></td>
+                </tr>
             </table>
+            <hr class = "menu_page">
+        
+            <div class = "center_text">
+                <img src = "images/planktosha.jpeg" alt = "Plankton J" class = "rounded_img">
+                <h1>Sheldon J.Plankton</h1>
+                <span>(user2)</span> <span>30.1.2019 1:14</span>
+                <h2>Biography:</h2>
+                <div class = "biography_text">
+                    <p>
+                        Main goal in life is to steal the Krabby Patty formula from Mr. Krabs
+                    </p>
+                </div>
+            </div>
         </div>
+            
     </body>
 </html>
