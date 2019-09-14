@@ -7,10 +7,9 @@
 }
 
 .menu_border {
-    border: 6px;
+    border: 6px groove;
     background-color: dimgray;
-    border-style: groove;
-    border-spacing: 5;
+    border-spacing: 5px;
     width: 600px;
     margin: 0 auto;
     padding: 2px;
